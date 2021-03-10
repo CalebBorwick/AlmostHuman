@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "spr_blood_slime",
+    "path": "sprites/spr_blood_slime/spr_blood_slime.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "pr_enemies",
+    "path": "objects/pr_enemies/pr_enemies.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_blood_slime","path":"objects/obj_blood_slime/obj_blood_slime.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"enemy_hp","path":"objects/pr_enemies/pr_enemies.yy",},"objectId":{"name":"pr_enemies","path":"objects/pr_enemies/pr_enemies.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_damage_touch","path":"objects/pr_enemies/pr_enemies.yy",},"objectId":{"name":"pr_enemies","path":"objects/pr_enemies/pr_enemies.yy",},"value":"0.25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "enemies",
+    "path": "folders/Objects/entities/enemies.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_blood_slime",
+  "tags": [],
+  "resourceType": "GMObject",
+}

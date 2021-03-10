@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "spr_door",
+    "path": "sprites/spr_door/spr_door.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "pr_entity",
+    "path": "objects/pr_entity/pr_entity.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_keycard","path":"objects/obj_keycard/obj_keycard.yy",},"parent":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"entity_shadow","path":"objects/pr_entity/pr_entity.yy",},"objectId":{"name":"pr_entity","path":"objects/pr_entity/pr_entity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "entities",
+    "path": "folders/Objects/entities.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_door",
+  "tags": [],
+  "resourceType": "GMObject",
+}

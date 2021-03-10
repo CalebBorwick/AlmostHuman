@@ -1,0 +1,1 @@
+global.start = 2;
